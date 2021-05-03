@@ -43,7 +43,7 @@ public class StringaEst {
      * @return Ritorna vero se la stringa e' composta da numeri
      */
     public boolean isNUmeric(){
-        return value.matches("^(\\(?\\+?[0-9]*\\)?)?[0-9_\\- \\(\\)]*$");
+        return value.matches("\\d+");
     }
 
 
